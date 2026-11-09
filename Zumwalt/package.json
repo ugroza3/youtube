@@ -1,0 +1,26 @@
+{
+  "name": "zumwalt",
+  "version": "1.0.0",
+  "description": "Zumwalt motion graphics (Remotion)",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.541",
+    "@remotion/google-fonts": "^4.0.541",
+    "@remotion/media": "^4.0.541",
+    "@remotion/paths": "^4.0.541",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/web": "^0.0.166",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}
