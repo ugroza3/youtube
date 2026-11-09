@@ -1,0 +1,410 @@
+# Catalog (gl-transitions@3.1.0)
+
+208 transitions. Generated from gl-transitions.json; full details (parameter hints, authors, source links) in https://cdn.jsdelivr.net/npm/gl-transitions@3.1.0/llms-full.txt.
+
+## By tag
+
+- **wipe**: ApertureWipe, ArrowWipe, BandWipe, BowTie, BowTieHorizontal, BrushWipe, CircleOpen, ClockWipe, ColorPanelWipe, CurvedWipe, DiamondWipe, DirectionalWarp, DirectionalWipe, FlameWipe, FlowerWipe, HeartWipe, HorizontalClose, HorizontalOpen, InsetWipe, KeyholeWipe, LeafWipe, LightWipe, LumaWipe, PlasmaDissolve, PlusWipe, RadialWipe, RingsWipe, SawtoothWipe, SnakeBlockWipe, SpiralBlockWipe, SpiralWipe, SquaresWipe, StarWipe, StaticWipe, TilesWave, UndulatingBurnOut, VerticalClose, VerticalOpen, WedgeWipe, Wind, WindowSlices, ZoomWipeLeft, ZoomWipeRight
+- **3d**: Accordion, BookFlip, Clothesline, Crumple, Cube, Curtains, CylinderRoll, DominoFall, Doorway, Drape, FallOver, Gallery, GlitterDissolve, GridFlip, InsideCube, InvertedPageCurl, PaperFold, Prisms, PuzzleCube, RibbonTwist, Shatter, SlotReels, Sphere, SplitFlap, Swap, Tumble, Tunnel, WhipTilt
+- **slide**: Accordion, BlockSlide, Bounce, CardSwipe, Clothesline, Comb, Directional, DirectionalEased, DirectionalScaled, Fold, Funnel, Gallery, LeftRight, SlideAwayRight, Slides, SplitSlideInHorizontal, SplitSlideInOutHorizontal, SplitSlideInOutVertical, SplitSlideInVertical, SplitSlideOutHorizontal, SplitSlideOutVertical, StretchSlide, TangentMotionBlur, TopBottom, WhipPan
+- **zoom**: BlockSlide, ComicPanels, CrossWarp, CrossZoom, DirectionalScaled, DreamyZoom, Fisheye, LeftRight, Mosaic, PopIn, RectangleIris, Revolve, RotateScaleFade, RotateScaleVanish, SimpleZoom, SimpleZoomOut, StereoViewer, TopBottom, Tunnel, WarpSpeed, ZoomInCircles, ZoomInOut, ZoomWipeLeft, ZoomWipeRight
+- **rotate**: ApertureWipe, CardSwipe, Cube, DominoFall, DreamyZoom, FallOver, Honeycomb, InsideCube, Pinwheel, Prisms, Puzzle, PuzzleCube, Revolve, RibbonTwist, Rolls, RotateScaleFade, RotateScaleVanish, Snapshot, Swirl, TangentMotionBlur, Tumble, WhipSpin, WhipTilt
+- **directional**: ArrowWipe, BlockSlide, CardSwipe, Clothesline, CurvedWipe, Directional, DirectionalEased, DirectionalScaled, DirectionalWarp, DirectionalWipe, Disintegrate, FlameWipe, Gallery, InsideCube, LiquidFill, PixelStretch, SawtoothWipe, Slides, SquaresWipe, StretchSlide, WaveWipe, WhipPan
+- **blend**: ColorCoords, ColorDistance, CrossZoom, DefocusBlur, DisplacementMap, Dreamy, Fade, FilmDissolve, Fisheye, GlitchBands, GlitchMemories, HeatHaze, Hexagonalize, Kaleidoscope, Morph, MultiplyBlend, Pixelize, Ripple, SlideAwayRight, Swirl, WindowBlinds
+- **shape**: ApertureWipe, ArrowWipe, BowTie, BowTieHorizontal, CircleIris, DiamondWipe, EyeBlink, FlowerWipe, HeartWipe, InsetWipe, KeyholeWipe, LeafWipe, PlusWipe, RectangleCover, SawtoothWipe, Sphere, SpiralWipe, StarWipe
+- **horizontal**: BandWipe, BowTieHorizontal, Comb, CrossWarp, Curtains, Fold, LeftRight, PaperTear, SimpleFlip, SlideAwayRight, SplitSlideInHorizontal, SplitSlideInOutHorizontal, SplitSlideOutHorizontal, Wind, ZoomWipeLeft, ZoomWipeRight
+- **vertical**: Bounce, CylinderRoll, Drape, FallOver, FilmStrip, Funnel, Shred, SplitSlideInOutVertical, SplitSlideInVertical, SplitSlideOutVertical, Squeeze, StaticWipe, TopBottom, TvRoll, TvTurnOff, WhipTilt
+- **fade**: ColorPhase, ColorWrap, EdgeGlow, Fade, FadeColor, FadeGrayscale, FilmDissolve, FlashFade, HsvFade, MultiplyBlend, Overexposure, PhotoDevelop, RotateScaleFade, SimpleZoom, SimpleZoomOut
+- **retro**: Ascii, DitherDissolve, DoomMelt, FilmStrip, Halftone, LissajousTiles, PhotoDevelop, StaticFade, StereoViewer, TvLostSignal, TvRoll, TvStatic, TvTurnOff, VhsTracking
+- **grid**: BlockCover, BlockSlide, Chessboard, ComicPanels, GridFlip, LedWall, LissajousTiles, PuzzleCube, RandomSquares, SnakeBlockWipe, SpiralBlockWipe, SplitFlap, SquaresWipe
+- **noise**: BurnThrough, Crosshatch, HeatHaze, InkBleed, LuminanceMelt, NoiseDissolve, PerlinDissolve, SmokeDissolve, StaticFade, StaticWipe, TvStatic, VhsTracking, Wind
+- **dissolve**: BloomDissolve, BokehDissolve, CellDissolve, DitherDissolve, FilmDissolve, GlintDissolve, GlitterDissolve, GlowDissolve, NoiseDissolve, PerlinDissolve, RandomSquares, SketchDissolve
+- **split**: Curtains, HorizontalClose, HorizontalOpen, PaperTear, SplitSlideInHorizontal, SplitSlideInOutHorizontal, SplitSlideInOutVertical, SplitSlideInVertical, SplitSlideOutHorizontal, SplitSlideOutVertical, VerticalClose, VerticalOpen
+- **color**: BlockCover, ColorDistance, ColorPanelWipe, ColorPhase, ColorWrap, DuotoneFade, FadeColor, FadeGrayscale, FlashFade, HsvFade, PhotoDevelop
+- **distort**: ButterflyWaveScrawler, ColorCoords, CrazyParametricFun, DisplacementMap, Fisheye, FlyEye, Funnel, HeatHaze, Kaleidoscope, Morph, PowerKaleido
+- **light**: BloomDissolve, BokehDissolve, FilmDissolve, GlintDissolve, LensFlare, LightRays, LightStreaks, LightWipe, LightningFlash, Overexposure, WarpSpeed
+- **shadow**: Bounce, Crumple, CurvedWipe, Drape, Funnel, PaperFold, PaperTear, PopIn, Puzzle, Shred, Snapshot
+- **motion-blur**: CameraShake, CylinderRoll, FilmStrip, LightStreaks, SlotReels, TangentMotionBlur, WarpSpeed, WhipPan, WhipSpin, WhipTilt
+- **radial**: ClockWipe, Honeycomb, LightRays, Pinwheel, RadialWipe, RingsWipe, SpiralWipe, Tunnel, WarpSpeed, WedgeWipe
+- **chromatic**: ButterflyWaveScrawler, CameraShake, CylinderRoll, FlyEye, GlitchFlicker, GlitchMemories, PixelStretch, Squeeze, StripDatamoshGlitch
+- **glitch**: ColorWrap, GlitchBands, GlitchDisplace, GlitchFlicker, GlitchMemories, Hologram, StripDatamoshGlitch, TvLostSignal, VhsTracking
+- **glow**: BloomDissolve, GlowDissolve, LedWall, LensFlare, LightRays, LightStreaks, LightWipe, PlasmaDissolve, Refraction
+- **stripes**: Accordion, BandWipe, Comb, DominoFall, Prisms, Shred, SlotReels, WindowBlinds, WindowSlices
+- **tiles**: GlitterDissolve, GridFlip, Honeycomb, LissajousTiles, Mosaic, Puzzle, TilesWave, TruchetWipe, Vortex
+- **pattern**: Ascii, Chessboard, Crosshatch, DitherDissolve, Halftone, MoireWipe, PolkaDotsCurtain, TruchetWipe
+- **blur**: BokehDissolve, CrossZoom, DefocusBlur, EyeBlink, FrostWipe, Revolve, ZoomInOut
+- **flip**: BookFlip, GlitterDissolve, GridFlip, RibbonTwist, SimpleFlip, SplitFlap, Tumble
+- **iris**: ApertureWipe, CircleIris, CircleOpen, DiamondWipe, KeyholeWipe, RectangleCover, RectangleIris
+- **organic**: BrushWipe, GooeyWipe, HeatHaze, InkBleed, PlasmaDissolve, SmokeDissolve, SplatterWipe
+- **reveal**: GooeyWipe, KeyholeWipe, LiquidFill, MoireWipe, SplatterWipe, TruchetWipe, WaveWipe
+- **wave**: ButterflyWaveScrawler, Dreamy, LedWall, LiquidFill, Ripple, TilesWave, WaveWipe
+- **circle**: CircleIris, CircleOpen, RingsWipe, UndulatingBurnOut, WaterDrop, ZoomInCircles
+- **flash**: DreamyZoom, FlashFade, LightningFlash, Overexposure, Snapshot, TvTurnOff
+- **burn**: BurnThrough, FilmBurn, FlameWipe, GlowDissolve, UndulatingBurnOut
+- **fold**: Accordion, Curtains, Drape, Fold, PaperFold
+- **scanlines**: GlitchFlicker, Hologram, TvLostSignal, TvRoll, VhsTracking
+- **blocks**: BlockCover, BlockSlide, SnakeBlockWipe, SpiralBlockWipe
+- **clock**: ClockWipe, RadialWipe, RingsWipe, WedgeWipe
+- **perspective**: Clothesline, Gallery, InsideCube, Tumble
+- **push**: Comb, Directional, DirectionalEased, DirectionalScaled
+- **reflection**: Cube, Doorway, Gallery, Swap
+- **squares**: BlockCover, Chessboard, RandomSquares, SquaresWipe
+- **bounce**: Bounce, PopIn, StretchSlide
+- **box**: InsetWipe, RectangleCover, RectangleIris
+- **cover**: BlockCover, FrostWipe, SmokeDissolve
+- **displace**: ColorCoords, DisplacementMap, GlitchDisplace
+- **dots**: Halftone, LedWall, PolkaDotsCurtain
+- **lens**: BokehDissolve, Fisheye, FlyEye
+- **paper**: Clothesline, Crumple, PaperFold
+- **pixelate**: DitherDissolve, Hexagonalize, Pixelize
+- **refraction**: FacetedGlass, Refraction, WaterDrop
+- **roll**: CylinderRoll, Rolls, Sphere
+- **spin**: RotateScaleVanish, SlotReels, WhipSpin
+- **static**: StaticFade, StaticWipe, TvStatic
+- **warp**: CrossWarp, DirectionalWarp, Tunnel
+- **water**: LiquidFill, WaterDrop, WaveWipe
+- **card**: CardSwipe, Tumble
+- **cube**: Cube, InsideCube
+- **distortion**: FacetedGlass, Refraction
+- **edges**: EdgeGlow, SketchDissolve
+- **elastic**: PopIn, StretchSlide
+- **film**: FilmBurn, FilmStrip
+- **fire**: BurnThrough, FlameWipe
+- **flare**: LensFlare, LightStreaks
+- **flicker**: GlitchFlicker, Hologram
+- **fragments**: Puzzle, Shatter
+- **glass**: FacetedGlass, Shatter
+- **graphic**: MoireWipe, TruchetWipe
+- **hexagon**: Hexagonalize, Honeycomb
+- **kaleidoscope**: Kaleidoscope, PowerKaleido
+- **liquid**: GooeyWipe, LiquidFill
+- **luma**: LumaWipe, LuminanceMelt
+- **melt**: DoomMelt, LuminanceMelt
+- **page**: BookFlip, InvertedPageCurl
+- **paint**: BrushWipe, SplatterWipe
+- **panels**: ColorPanelWipe, ComicPanels
+- **photo**: PhotoDevelop, Snapshot
+- **psychedelic**: ColorWrap, CrazyParametricFun
+- **rings**: MoireWipe, RingsWipe
+- **ripple**: Ripple, WaterDrop
+- **scale**: PopIn, Snapshot
+- **shatter**: Shatter, Vortex
+- **slices**: Shred, WindowSlices
+- **sparkle**: GlintDissolve, GlitterDissolve
+- **spiral**: SpiralBlockWipe, Vortex
+- **swirl**: Revolve, Swirl
+- **voronoi**: CellDissolve, FacetedGlass
+- **zigzag**: SawtoothWipe, SnakeBlockWipe
+- **arrow**: ArrowWipe
+- **blinds**: WindowBlinds
+- **blink**: EyeBlink
+- **blob**: GooeyWipe
+- **bloom**: BloomDissolve
+- **bokeh**: BokehDissolve
+- **brush**: BrushWipe
+- **camera**: CameraShake
+- **cards**: StereoViewer
+- **cells**: CellDissolve
+- **chevron**: ArrowWipe
+- **chromatic-aberration**: Refraction
+- **columns**: DoomMelt
+- **comic**: ComicPanels
+- **cross**: PlusWipe
+- **crystal**: FrostWipe
+- **curl**: InvertedPageCurl
+- **curve**: CurvedWipe
+- **datamosh**: StripDatamoshGlitch
+- **digital**: Ascii
+- **doors**: Doorway
+- **drawing**: SketchDissolve
+- **duotone**: DuotoneFade
+- **dust**: Disintegrate
+- **eye**: EyeBlink
+- **fabric**: Drape
+- **facets**: FacetedGlass
+- **fall**: Snapshot
+- **flame**: FlameWipe
+- **fluid**: InkBleed
+- **foam**: WaveWipe
+- **fog**: SmokeDissolve
+- **frost**: FrostWipe
+- **gallery**: Gallery
+- **glint**: LightWipe
+- **glints**: GlintDissolve
+- **gradient-map**: DuotoneFade
+- **grayscale**: FadeGrayscale
+- **heart**: HeartWipe
+- **heat**: HeatHaze
+- **hologram**: Hologram
+- **hue**: HsvFade
+- **ice**: FrostWipe
+- **impact**: CameraShake
+- **ink**: InkBleed
+- **interference**: MoireWipe
+- **interleave**: BandWipe
+- **keyhole**: KeyholeWipe
+- **light-leak**: FilmBurn
+- **lines**: Crosshatch
+- **luminance**: DuotoneFade
+- **mask**: LumaWipe
+- **moire**: MoireWipe
+- **morph**: Morph
+- **mosaic**: Mosaic
+- **motion**: LissajousTiles
+- **motion-graphics**: ColorPanelWipe
+- **ocean**: WaveWipe
+- **particles**: Disintegrate
+- **paths**: TruchetWipe
+- **pencil**: SketchDissolve
+- **pinwheel**: Pinwheel
+- **plasma**: PlasmaDissolve
+- **plus**: PlusWipe
+- **polar**: FlowerWipe
+- **pop**: PopIn
+- **poster**: DuotoneFade
+- **print**: DuotoneFade
+- **random**: CellDissolve
+- **rays**: LightRays
+- **rotation**: Vortex
+- **sci-fi**: Hologram
+- **shake**: CameraShake
+- **shimmer**: HeatHaze
+- **shrink**: Crumple
+- **sketch**: SketchDissolve
+- **slanted**: ColorPanelWipe
+- **smear**: PixelStretch
+- **smoke**: SmokeDissolve
+- **space**: WarpSpeed
+- **sphere**: Sphere
+- **splash**: SplatterWipe
+- **squash**: StretchSlide
+- **squeeze**: Squeeze
+- **stack**: CardSwipe
+- **star**: StarWipe
+- **streak**: LensFlare
+- **streaks**: PixelStretch
+- **stretch**: StretchSlide
+- **strobe**: LightningFlash
+- **swap**: Swap
+- **swing**: Clothesline
+- **swipe**: CardSwipe
+- **tape**: VhsTracking
+- **text**: Ascii
+- **truchet**: TruchetWipe
+- **weather**: LightningFlash
+- **wedge**: WedgeWipe
+- **wind**: Disintegrate
+- **wrap**: Sphere
+
+## Transitions
+
+`name`: description. Parameters as name (type = default). Extra textures are flagged: the host must provide them.
+
+- `Accordion`: The outgoing image folds up like a pleated paper toward one side while the incoming one unfolds out of the other, both in 3D with lit and shadowed pleats. Params: pleats (int = 4), direction (vec2 = vec2(-1, 0)), shading (float = 0.7), perspective (float = 1.5), backColor (vec4 = vec4(0, 0, 0, 1))
+- `ApertureWipe`: A camera aperture opens its turning blades to reveal the incoming image. Params: blades (int = 6), rotation (float = 60), shadow (float = 0.5)
+- `ArrowWipe`: A notched arrowhead window onto the incoming image flies in from the edge behind it (or appears at the center), then swells until it fills the frame. Params: direction (vec2 = vec2(1, 0)), notch (float = 0.4), width (float = 80), count (int = 1), origin (bool = false), smoothness (float = 0.004)
+- `Ascii`: The image turns into text-mode characters, denser where it is brighter, the characters scramble into those of the incoming image, then resolve back into it. Params: cellSize (float = 0.04), colored (bool = true), ink (vec4 = vec4(0.3, 1, 0.45, 1)), background (vec4 = vec4(0, 0, 0, 1))
+- `BandWipe`: Alternating bands wipe in from opposite sides together and interleave like fingers, while both images stay still. Params: bands (int = 8), vertical (bool = false), smoothness (float = 0.02), stagger (float = 0.1)
+- `BlockCover`: Blocks of a solid color pop in at random over the outgoing image until they cover the frame, then pop out in another random order to show the incoming image. Params: blocks (int = 16), color (vec4 = vec4(0.95, 0.32, 0.26, 1)), pop (float = 0.5), smoothness (float = 0.03)
+- `BlockSlide`: The frame is cut into a grid of blocks that slide out one after another in a staggered cascade, some of them shrinking as they go, while the blocks of the incoming image slide in behind them to take their place. Params: grid (ivec2 = ivec2(5, 4)), direction (vec2 = vec2(1, 0)), stagger (float = 0.6), zoom (float = 0.35), background (vec4 = vec4(0, 0, 0, 1))
+- `BloomDissolve`: The highlights of the outgoing image blow out into a soft, wide glow that floods the frame; under it the incoming image takes over, then the glow subsides back into its highlights while the image stays sharp. Params: spread (float = 0.25), threshold (float = 0.6), intensity (float = 1.5), tint (vec3 = vec3(1, 0.9, 0.75))
+- `BokehDissolve`: The image falls out of focus like a camera lens, its highlights swelling into large bright bokeh discs, and the incoming image sharpens back out of its own bokeh. Params: radius (float = 0.05), blades (int = 0), threshold (float = 0.7), intensity (float = 1)
+- `BookFlip`: The right half of the outgoing image is a book page that turns over from right to left on the spine at the middle of the frame, curling near its free edge, its back bringing the left half of the incoming image. Params: perspective (float = 0.5), shading (float = 0.6), curl (float = 0.5)
+- `Bounce`: The outgoing image drops out of the frame with a few bounces, revealing the incoming one. Params: shadow_colour (vec4 = vec4(0, 0, 0, 0.6)), shadow_height (float = 0.075), bounces (float = 3)
+- `BowTie`: Two triangles grow from the top and bottom edges into a bow tie that reveals the incoming image, with an adjustable shape, and can run in reverse. Params: adjust (float = 0.5), reverse (bool = false)
+- `BowTieHorizontal`: Two triangles grow from the left and right edges into a bow tie that reveals the incoming image
+- `BrushWipe`: A few broad brush strokes sweep across the frame in turn, back and forth, painting in the incoming image with streaky bristle edges and dry, ragged ends. Params: strokes (float = 4), angle (float = -7), roughness (float = 0.6), waviness (float = 0.5)
+- `BurnThrough`: The outgoing image burns away in noisy, glowing patches. Params: burnColor (vec3 = vec3(1, 0.5, 0))
+- `ButterflyWaveScrawler`: Wavy, color-separated ripples scramble the outgoing image into the incoming one. Params: amplitude (float = 1), waves (float = 30), colorSeparation (float = 0.3)
+- `CameraShake`: The camera jolts violently in random directions, with motion blur and color fringes along each jolt; the cut happens at the peak of the shake, which then settles on the incoming image. Params: strength (float = 0.5), jolts (float = 12), blur (float = 0.5), split (float = 0.5)
+- `CardSwipe`: The outgoing image is flicked off like the top card of a stack, swinging around a point below it as it flies out, while the incoming card behind it grows to fill the frame. Params: direction (vec2 = vec2(1, 0.25)), rotation (float = 0.5), depth (float = 0.15), backColor (vec4 = vec4(0.06, 0.06, 0.07, 1))
+- `CellDissolve`: Irregular cells, like cracked mud or soap foam, switch to the incoming image one by one, with an optional bright border glowing along the cracks between them. Params: cells (float = 8), smoothness (float = 0.1), border (float = 0.006), borderColor (vec4 = vec4(1, 0.95, 0.8, 1)), seed (float = 0)
+- `Chessboard`: A chessboard pattern of squares reveals the incoming image. Params: grid_num (float = 10)
+- `CircleIris`: The outgoing image closes into a circle over a background color, then the incoming one opens from it. Params: center (vec2 = vec2(0.5, 0.5)), backColor (vec4 = vec4(0.1, 0.1, 0.1, 1))
+- `CircleOpen`: A soft-edged circle opens from the center to reveal the incoming image. Params: smoothness (float = 0.3), opening (bool = true)
+- `ClockWipe`: A wipe that sweeps around the center from a starting angle. Params: startingAngle (float = 90)
+- `Clothesline`: The camera pulls back to show the outgoing image as a print hung by two clothespins on a line in front of a wall, the line is pulled sideways and carries it away while the incoming print slides in, both prints swinging and tilting like hanging paper, then the camera moves back in on the incoming print until it fills the frame. Params: direction (float = 1), sway (float = 0.5), size (float = 0.72), background (vec4 = vec4(0.86, 0.84, 0.8, 1)), lineColor (vec4 = vec4(0.42, 0.34, 0.26, 1)), pinColor (vec4 = vec4(0.84, 0.68, 0.47, 1))
+- `ColorCoords`: A crossfade in which the colors of one image displace the other
+- `ColorDistance`: Pixels switch to the incoming image in order of how close their colors are. Params: power (float = 5)
+- `ColorPanelWipe`: Solid color panels, slightly staggered, sweep across and cover the frame, then sweep off the far side and reveal the incoming image. Params: direction (vec2 = vec2(1, 0)), panels (int = 3), color1 (vec4 = vec4(0.98, 0.76, 0.22, 1)), color2 (vec4 = vec4(0.93, 0.33, 0.36, 1)), color3 (vec4 = vec4(0.16, 0.2, 0.42, 1)), stagger (float = 0.35), skew (float = 0.25)
+- `ColorPhase`: A crossfade in which each color channel changes at a different time. Params: fromStep (vec4 = vec4(0, 0.2, 0.4, 0)), toStep (vec4 = vec4(0.6, 0.8, 1, 1))
+- `ColorWrap`: Each color channel of the outgoing image is shifted and wraps around into psychedelic bands, while crossfading to the incoming image. Params: r_strength (float = 1), g_strength (float = 1), b_strength (float = 1)
+- `Comb`: The frame is cut into interleaved strips that slide in opposite directions, each pushing the outgoing image out and the incoming one in. Params: strips (int = 10), vertical (bool = false)
+- `ComicPanels`: The frame splits into slanted comic-book panels with gutters and ink borders; one after another in reading order, each panel lifts off the page with a zoom kick and a drop shadow and punches over to the incoming image, then the gutters close up over the full incoming image. Params: gutter (float = 0.03), gutterColor (vec4 = vec4(1, 1, 1, 1)), borderColor (vec4 = vec4(0, 0, 0, 1)), seed (float = 0)
+- `CrazyParametricFun`: The outgoing image is pulled along a parametric curve into a psychedelic swirl. Params: a (float = 4), b (float = 1), amplitude (float = 120), smoothness (float = 0.1)
+- `CrossWarp`: The outgoing image zooms in while the incoming one zooms out into place, sweeping from right to left
+- `CrossZoom`: A crossfade through a strong zoom blur. Params: strength (float = 0.4)
+- `Crosshatch`: The incoming image appears through a crosshatch of lines spreading from the center. Params: center (vec2 = vec2(0.5, 0.5)), threshold (float = 3), fadeEdge (float = 0.1)
+- `Crumple`: The outgoing image crumples into a creased paper ball, shaded along its folds, which is then tossed away to reveal the incoming image. Params: creases (int = 16), size (float = 0.2), direction (vec2 = vec2(1, 0.4)), paper (vec4 = vec4(0.96, 0.95, 0.91, 1)), shadow (vec4 = vec4(0, 0, 0, 0.45))
+- `Cube`: The two images are faces of a box that turns a quarter turn in perspective, the outgoing face darkening as it turns away, above a reflective floor. Params: persp (float = 0.7), unzoom (float = 0.3), reflection (float = 0.4), floating (float = 3), shading (float = 0.5)
+- `Curtains`: The outgoing image parts in the middle like stage curtains, gathering into shaded folds as it is pulled to the sides. Params: folds (float = 7), shading (float = 0.7), bunch (float = 0.12), sway (float = 0.4)
+- `CurvedWipe`: The outgoing image is pulled away by its middle: the wipe edge bulges into a smooth curve that leads the way, then flattens as it reaches the far side. Params: direction (vec2 = vec2(0, 1)), curvature (float = 0.6), smoothness (float = 0.02), shadow (vec4 = vec4(0, 0, 0, 0.4))
+- `CylinderRoll`: The frame wraps around a drum that rolls up, the outgoing image turning away over its top in a motion blur and the incoming one coming around from below and unrolling flat. Params: curvature (float = 0.8), blur (float = 0.5), shading (float = 0.6), chroma (float = 0.5), downward (bool = false)
+- `DefocusBlur`: A crossfade through an out-of-focus blur. Params: blurSize (float = 0.02)
+- `DiamondWipe`: A soft-edged diamond grows from the center to reveal the incoming image. Params: center (vec2 = vec2(0.5, 0.5)), smoothness (float = 0.03)
+- `Directional`: The incoming image pushes the outgoing one out in a given direction. Params: direction (vec2 = vec2(0, 1))
+- `DirectionalEased`: Like Directional, with an eased movement. Params: direction (vec2 = vec2(0, 1))
+- `DirectionalScaled`: Like Directional, with both images scaled down while they slide. Params: direction (vec2 = vec2(0, 1)), scale (float = 0.7)
+- `DirectionalWarp`: A diagonal wipe with a warped, smeared edge. Params: smoothness (float = 0.1), direction (vec2 = vec2(-1, 1))
+- `DirectionalWipe`: A straight wipe in any direction, diagonal and soft-edged by default; a smoothness of 0 gives a hard edge. Params: direction (vec2 = vec2(1, -1)), smoothness (float = 0.5)
+- `Disintegrate`: The outgoing image crumbles into fine dust from one side, its grains blown away by the wind and fading out, revealing the incoming image underneath. Params: particleSize (float = 0.008), direction (vec2 = vec2(1, -0.15)), spread (float = 0.75)
+- `DisplacementMap`: A crossfade in which a displacement map (an extra grayscale texture) warps both images. Params: strength (float = 0.5). Extra textures: displacementMap
+- `DitherDissolve`: The incoming image appears through a regular 8x8 ordered dither pattern, like a retro computer screen. Params: dotSize (float = 0.02)
+- `DominoFall`: The outgoing image is cut into standing slats that topple backward like dominoes in a chain reaction across the frame, each one leaning onto the next and knocking it over, until they all lie flat and reveal the incoming image. Params: count (int = 12), reverse (bool = false), knock (float = 0.2), lean (float = 0.8), perspective (float = 0.8), shading (float = 0.6)
+- `DoomMelt`: The outgoing image melts down in uneven columns, like the Doom screen wipe. Params: bars (int = 30), amplitude (float = 2), noise (float = 0.1), frequency (float = 0.5), dripScale (float = 0.5)
+- `Doorway`: The outgoing image opens like double doors swinging toward the viewer, as the incoming one comes forward from the dark room behind, with a floor reflection. Params: reflection (float = 0.4), perspective (float = 0.4), depth (float = 3)
+- `Drape`: The outgoing image hangs like a sheet of fabric that is let go at the top: it collapses into soft, uneven folds that hide one another as the cloth bunches up and slides down out of the frame, revealing the incoming image behind it. Params: folds (float = 6), depth (float = 0.7), sway (float = 0.4), shadow (float = 0.5)
+- `Dreamy`: A crossfade with a gentle wavy distortion
+- `DreamyZoom`: Zooms and rotates into a bright flash, then out to the incoming image. Params: rotation (float = 6), scale (float = 1.2)
+- `DuotoneFade`: The outgoing image is printed in two inks, shadows first, as a bold high-contrast duotone; the incoming image is printed over it in the same two inks, its dark tones landing before its highlights, then its own colors come back, highlights first. Params: shadowInk (vec4 = vec4(0.11, 0.09, 0.46, 1)), highlightInk (vec4 = vec4(1, 0.45, 0.62, 1)), contrast (float = 0.6), grain (float = 0.4)
+- `EdgeGlow`: Both images fade through black with their edges glowing. Params: edge_thickness (float = 0.001), edge_brightness (float = 8)
+- `EyeBlink`: Curved eyelids close from the top and bottom over the outgoing image, which blurs and dims, then open on the incoming image as it comes back into focus, as if the viewer blinked. Params: blur (float = 0.5), softness (float = 0.12), blinks (int = 1), color (vec4 = vec4(0.03, 0.02, 0.02, 1))
+- `FacetedGlass`: The frame is seen through a pane of irregular cut-glass facets, each one showing its own shifted, zoomed and tilted view of the image, with bright beveled edges and thin dark seams; the facets turn to the incoming image one by one, then the glass flattens out and clears. Params: facets (float = 5), refraction (float = 0.1), bevel (float = 0.6), highlight (vec4 = vec4(1, 0.98, 0.92, 1)), seed (float = 0)
+- `Fade`: A linear crossfade between the two images
+- `FadeColor`: A fade through a solid color, black by default. Params: color (vec4 = vec4(0, 0, 0, 1)), colorPhase (float = 0.4)
+- `FadeGrayscale`: A crossfade through grayscale. Params: intensity (float = 0.3)
+- `FallOver`: The outgoing image falls over backward, hinged on its bottom edge, revealing the incoming one behind it. Params: perspective (float = 0.8), shading (float = 0.7)
+- `FilmBurn`: Glowing film-burn light leaks wash over the image and reveal the incoming one. Params: Seed (float = 2.31)
+- `FilmDissolve`: A cross-dissolve blended in linear light, as light adds up on film: the frame keeps its brightness all the way through and the highlights of each image shine through the other. Params: overlap (float = 0.25), smoothness (float = 0.5)
+- `FilmStrip`: The picture slips like film in a projector gate: it shrinks to show the sprocket holes, the strip runs down with motion blur and a slight weave, then the incoming frame lands in place. Params: frames (int = 2), shrink (float = 0.2), blur (float = 0.5), weave (float = 0.5), filmColor (vec4 = vec4(0.06, 0.05, 0.05, 1)), holeColor (vec4 = vec4(0.96, 0.93, 0.85, 1))
+- `Fisheye`: The outgoing image bulges toward the viewer through a strong fisheye lens, then the incoming one flattens back into place. Params: strength (float = 0.8)
+- `FlameWipe`: A wall of flames sweeps across the frame, scorching the outgoing image ahead of it and leaving the incoming image under a fading warm glow. Params: direction (vec2 = vec2(0, 1)), height (float = 0.4), scorch (float = 0.7), glow (float = 0.6), color (vec3 = vec3(1, 0.4, 0.08))
+- `FlashFade`: A crossfade that brightens toward a color in the middle. Params: color (vec3 = vec3(0.9, 0.4, 0.2))
+- `FlowerWipe`: A flower shape with several petals grows to reveal the incoming image. Params: segments (int = 5)
+- `FlyEye`: The image breaks into a fly's-eye grid of lenses with color separation. Params: size (float = 0.04), zoom (float = 50), colorSeparation (float = 0.3)
+- `Fold`: The incoming image unfolds from the left while the outgoing one folds away to the right
+- `FrostWipe`: Ice crystals grow in from the edges of the frame with feathery, branching fronts, frosting the outgoing image white and blurry until it is covered, then thaw back out to the edges on the incoming image. Params: spread (float = 0.5), scale (float = 5), blur (float = 0.5), color (vec4 = vec4(0.86, 0.93, 1, 1))
+- `Funnel`: The outgoing image narrows into a curved funnel toward a point on the bottom edge and slides into it, its sides bending like a window minimized into a dock, revealing the incoming image behind it. Params: target (float = 0.7), curvature (float = 0.8), shadow (float = 0.5)
+- `Gallery`: The camera pulls back from the outgoing image to show it as a slide hanging in a row on a wall in perspective, the row glides along as each slide turns away from the center, and the camera moves back in on the incoming slide until it fills the frame. Params: direction (float = 1), tilt (float = 0.6), gap (float = 0.15), zoom (float = 2), reflection (float = 0.3), background (vec4 = vec4(0.07, 0.07, 0.08, 1))
+- `GlintDissolve`: The bright points of the outgoing image sparkle into crisp four-point star glints that swell and twinkle up to the cut, then shrink back into the highlights of the incoming image, which stays sharp. Params: size (float = 0.15), threshold (float = 0.6), intensity (float = 2), diagonals (bool = false), rotation (float = 0), rainbow (float = 0.35), tint (vec3 = vec3(1, 0.95, 0.85))
+- `GlitchBands`: A crossfade with glitchy horizontal bands and color shifts. Params: ampx (float = 1), ampy (float = 1)
+- `GlitchDisplace`: Blocks of the image are displaced in a glitch that flashes into the incoming image
+- `GlitchFlicker`: A flickering glitch with RGB offset, ghosting and scanlines that flashes back to the outgoing image. Params: frameRate (float = 24), rgbOffset (float = 0.014), blockAmount (float = 0.72), ghostAmount (float = 0.62), redCyan (float = 0.58), scanline (float = 0.075)
+- `GlitchMemories`: A crossfade with glitchy, color-shifted blocks
+- `GlitterDissolve`: The image becomes a shimmering field of tiny diamond sequins that flip over in 3D at random moments, each lifting and tilting on its own axis and flashing a glint of light, and land on the incoming image. Params: tiles (float = 20), hexagons (bool = false), sparkle (float = 1), glint (vec3 = vec3(1, 0.97, 0.9)), seed (float = 0), backColor (vec4 = vec4(0.04, 0.04, 0.05, 1))
+- `GlowDissolve`: The incoming image spreads over the outgoing one with a hot, glowing edge. Params: uLineWidth (float = 0.1), uSpreadClr (vec3 = vec3(1, 0, 0)), uHotClr (vec3 = vec3(0.9, 0.9, 0.2)), uPow (float = 5), uIntensity (float = 1)
+- `GooeyWipe`: Soft, glossy blobs of liquid pop up over the outgoing image, swell and melt into each other, revealing the incoming image until they cover the whole frame. Params: blobs (float = 5), smoothness (float = 0.5), highlight (vec4 = vec4(1, 1, 1, 0.7)), shadow (vec4 = vec4(0, 0, 0, 0.3))
+- `GridFlip`: The image splits into a grid of cards that lift apart and turn over in perspective one after another, each one showing its part of the incoming image on its back. Params: size (ivec2 = ivec2(4, 4)), pause (float = 0.1), dividerWidth (float = 0.05), bgcolor (vec4 = vec4(0, 0, 0, 1)), randomness (float = 0.1)
+- `Halftone`: The image breaks into printed halftone dots whose size follows its shades, the dots reshape into the incoming image, then merge back into it. Params: dots (float = 28), angle (float = 45), paper (vec4 = vec4(1, 1, 1, 1))
+- `HeartWipe`: A heart grows from the center with a little heartbeat to reveal the incoming image. Params: center (vec2 = vec2(0.5, 0.5)), smoothness (float = 0.006), pulse (float = 0.5), glowColor (vec3 = vec3(1, 0.85, 0.9)), glow (float = 0.3)
+- `HeatHaze`: Shimmering heat waves rise through the frame, strongest at the bottom, making the outgoing image wobble like the air over hot asphalt; the incoming image shows through the haze and settles as it calms. Params: strength (float = 0.04), scale (float = 6), speed (float = 2)
+- `Hexagonalize`: Both images turn into hexagons, crossfade, then sharpen again. Params: steps (int = 50), horizontalHexagons (float = 20)
+- `Hologram`: The outgoing image turns into a flickering hologram (blue by default) with scanlines and jittering rows, breaks up, and the hologram resolves into the incoming image in full color. Params: tint (vec3 = vec3(0.2, 0.75, 1)), background (vec4 = vec4(0, 0.02, 0.05, 1)), scanlines (float = 150), jitter (float = 0.04), flicker (float = 0.6)
+- `Honeycomb`: The image splits into hexagons that spin and shrink away in a wave from the center, uncovering the incoming image. Params: size (float = 6)
+- `HorizontalClose`: The incoming image closes in from the top and bottom edges toward the middle
+- `HorizontalOpen`: The incoming image opens from a line in the middle toward the top and bottom edges
+- `HsvFade`: A crossfade through the HSV color space that cycles through hues
+- `InkBleed`: The incoming image spreads over the outgoing one like drops of ink in water, blooming from a few points with curling, wispy edges and a darker rim, until it fills the frame. Params: drops (float = 4), tendrils (float = 0.7), rim (float = 0.5), seed (float = 3)
+- `InsetWipe`: A rectangle anchored in a corner, on an edge or in the center grows until the incoming image fills the frame, revealing it in place without scaling it; in reverse, the outgoing image shrinks into the rectangle. Params: anchor (vec2 = vec2(1, 1)), smoothness (float = 0), borderWidth (float = 0), borderColor (vec4 = vec4(1, 1, 1, 1)), reverse (bool = false)
+- `InsideCube`: The camera stands inside a cube: the outgoing image covers the wall in front of it and the view turns toward the next inner wall, so the outgoing image swings away in perspective as the incoming one turns into view, the walls darkening into the shaded inner corner between them. Params: direction (vec2 = vec2(1, 0)), fov (float = 90), shading (float = 0.6), background (vec4 = vec4(0.09, 0.09, 0.1, 1))
+- `InvertedPageCurl`: The outgoing image curls away like a page, revealing the incoming one
+- `Kaleidoscope`: A crossfade through a spinning kaleidoscope. Params: speed (float = 1), angle (float = 1), power (float = 1.5)
+- `KeyholeWipe`: A keyhole grows steadily from the center until the incoming image fills the frame, its bevelled rim and inner shadow making it read as a hole cut in a plate. Params: center (vec2 = vec2(0.5, 0.5)), rim (float = 0.6), smoothness (float = 0.002)
+- `LeafWipe`: A leaf shape grows from the center to reveal the incoming image
+- `LedWall`: The picture zooms into a giant LED screen of round glowing diodes on a dark panel; a refresh wave sweeps across it, each diode flicking with a bright pop as it switches to the incoming image, then the diodes melt back into the plain picture. Params: cells (float = 24), glow (float = 0.6), flash (float = 0.7), zoom (float = 0.15), triads (bool = false), direction (vec2 = vec2(1, 0)), panel (vec4 = vec4(0.02, 0.02, 0.025, 1))
+- `LeftRight`: The outgoing image shrinks away to the left while the incoming one slides in from the right
+- `LensFlare`: A bright light sweeps across the frame and flares the lens: a long thin horizontal streak, a glowing core and a trail of colored ghost reflections; at its peak the incoming image spreads out from the light under its glare. Params: angle (float = -12), height (float = 0.18), intensity (float = 1), color (vec3 = vec3(0.35, 0.6, 1))
+- `LightRays`: Shafts of light burst from the highlights of the outgoing image and stream outward from a slowly drifting center; at their peak the incoming image takes over and its own rays shrink back into its highlights. Params: center (vec2 = vec2(0.5, 0.6)), drift (float = 0.15), reach (float = 0.6), threshold (float = 0.65), intensity (float = 1.5), tint (vec3 = vec3(1, 0.82, 0.55))
+- `LightStreaks`: The highlights of the outgoing image flare into long horizontal (or vertical) lens streaks while it smears with motion blur; at the peak the incoming image takes over and its streaks shrink back into its highlights as it sharpens. Params: reach (float = 0.6), threshold (float = 0.7), intensity (float = 1.5), tint (vec3 = vec3(0.45, 0.7, 1)), blur (float = 0.1), vertical (bool = false)
+- `LightWipe`: A band of intense light sweeps across the frame like a glint on glass, blooming the highlights of both images, and leaves the incoming image behind it. Params: direction (vec2 = vec2(1, -0.35)), width (float = 0.04), intensity (float = 1.2), color (vec3 = vec3(1, 0.86, 0.66))
+- `LightningFlash`: Forked lightning bolts crack down from the top of the frame, the screen flashes white in a few stuttering strobes, and the incoming image appears lit by the last flickers as they fade out. Params: bolts (int = 2), strike (float = 0.55), seed (float = 0), color (vec3 = vec3(0.75, 0.85, 1)), glow (float = 0.5), flashes (int = 3)
+- `LiquidFill`: The incoming image rises over the outgoing one like liquid filling a glass, its surface sloshing in waves, lit by a bright meniscus line, bending the image just below it, with a few bubbles rising through it. Params: direction (vec2 = vec2(0, 1)), amplitude (float = 0.06), waves (float = 1.5), highlight (vec4 = vec4(1, 1, 1, 0.8)), refraction (float = 0.03), bubbles (float = 0.5)
+- `LissajousTiles`: The image breaks into a grid of tiles that swirl along Lissajous curves, in a Scanimate style, and flip one by one to the incoming image before settling back. Params: speed (float = 0.5), freq (vec2 = vec2(2, 3)), offset (float = 2), zoom (float = 0.8), fade (float = 3)
+- `LumaWipe`: A wipe that follows the brightness of a grayscale mask (the luma texture). Extra textures: luma
+- `LuminanceMelt`: The outgoing image melts away in noisy vertical streaks, depending on its brightness. Params: direction (bool = true), l_threshold (float = 0.8), above (bool = false)
+- `MoireWipe`: Two sets of fine concentric rings, centered on two points that drift toward each other, overlay the image and interfere into a shifting moire of wide bands; the bands open onto the incoming image and widen until it fills the frame, while the thin dark and light ring lines fade away. Params: density (float = 36), bands (float = 3), drift (float = 0.25), lines (float = 0.5)
+- `Morph`: A crossfade in which each image is displaced by the other's colors, like a morph. Params: strength (float = 0.1)
+- `Mosaic`: The view pans across a mosaic of rotated tiles from both images and settles on the incoming one. Params: endx (int = 2), endy (int = -1)
+- `MultiplyBlend`: A crossfade through the multiplied blend of both images
+- `NoiseDissolve`: The incoming image appears pixel by pixel in random noise
+- `Overexposure`: A crossfade through a washed-out, overexposed white. Params: strength (float = 0.6)
+- `PaperFold`: The outgoing image is a sheet of paper that folds in half in 3D along a vertical crease, then in half again along a horizontal one, its lit and shaded faces turning to show the back of the paper, and the small folded packet flies off the frame, leaving its shadow on the incoming image underneath. Params: direction (vec2 = vec2(1, 0.5)), tilt (float = 0.6), shading (float = 0.6), paper (vec4 = vec4(0.95, 0.94, 0.9, 1))
+- `PaperTear`: The outgoing image tears in two along a ragged line, and the halves are pulled apart to reveal the incoming one. Params: roughness (float = 0.12), tilt (float = 0.1), rim (float = 0.012), paper (vec4 = vec4(1, 0.98, 0.94, 1)), shadow (vec4 = vec4(0, 0, 0, 0.35))
+- `PerlinDissolve`: The incoming image appears through blobs of Perlin noise. Params: scale (float = 4), smoothness (float = 0.01), seed (float = 12.9898)
+- `PhotoDevelop`: The outgoing image washes out to a blank cream card, then the incoming image develops on it like an instant photo: shadows first, faint and tinted, then its contrast and colors come up and it settles. Params: card (vec4 = vec4(0.93, 0.91, 0.85, 1)), wash (float = 0.35), tint (float = 0.8)
+- `Pinwheel`: A spinning pinwheel reveals the incoming image. Params: speed (float = 2)
+- `PixelStretch`: A line sweeps across the frame and drags the outgoing image's pixels behind it as long streaks, which shorten as it goes and reveal the incoming image. Params: direction (vec2 = vec2(1, 0)), stretch (float = 0.45), chroma (float = 0.5), softness (float = 0.03), jitter (float = 0.5)
+- `Pixelize`: Both images pixelate, crossfade, then sharpen again. Params: squaresMin (ivec2 = ivec2(20, 20)), steps (int = 50)
+- `PlasmaDissolve`: A flowing plasma of sine waves, as in the old demos, draws moving bands through which the incoming image spreads like tendrils, with a glowing edge. Params: scale (float = 3), smoothness (float = 0.1), flow (float = 1), edgeColor (vec3 = vec3(1, 0.45, 0.9)), edgeStrength (float = 0.6)
+- `PlusWipe`: A plus-shaped cross grows from the center and widens its arms until the incoming image fills the frame. Params: smoothness (float = 0.01), reverse (bool = false)
+- `PolkaDotsCurtain`: The incoming image appears through growing polka dots. Params: dots (float = 20), center (vec2 = vec2(0, 0))
+- `PopIn`: The incoming image pops in as a rounded card over the outgoing one, with an elastic overshoot: too big, a bit small, then it settles into the full frame as its corners square off. Params: center (vec2 = vec2(0.5, 0.5)), bounce (float = 1), corner (float = 0.12), shadow (float = 0.5)
+- `PowerKaleido`: The image folds into an animated kaleidoscope before revealing the incoming one. Params: scale (float = 2), z (float = 1.5), speed (float = 5)
+- `Prisms`: The frame is cut into 3D prisms that turn in a cascade, like a rotating billboard, from the outgoing image on one face to the incoming one on the next. Params: slats (int = 8), stagger (float = 0.45), perspective (float = 1), shading (float = 0.6), horizontal (bool = false), backColor (vec4 = vec4(0, 0, 0, 1))
+- `Puzzle`: The image is cut into jigsaw puzzle pieces that lift one after another and fall away, revealing the incoming image. Params: pieces (float = 5), shadow (float = 0.6)
+- `PuzzleCube`: The frame becomes the face of a twisty cube puzzle: dark gaps open between its cubies, then whole columns and rows of cubies turn a quarter turn around the cube one after another in 3D, each bringing the incoming image from the cube's side to the front, until the gaps close on the incoming image. Params: size (int = 3), gap (float = 0.012), shading (float = 0.6), background (vec4 = vec4(0.04, 0.04, 0.05, 1))
+- `RadialWipe`: A radial wipe that sweeps around the center like a clock hand. Params: smoothness (float = 1)
+- `RandomSquares`: The incoming image appears in random squares. Params: size (ivec2 = ivec2(10, 10)), smoothness (float = 0.5)
+- `RectangleCover`: A rectangle grows from the center to cover the outgoing image, then shrinks to reveal the incoming one. Params: bgcolor (vec4 = vec4(0, 0, 0, 1))
+- `RectangleIris`: The outgoing image shrinks into a small rectangle over a background color, then the incoming one grows from it. Params: bgcolor (vec4 = vec4(0, 0, 0, 1))
+- `Refraction`: The frame is seen through flowing liquid glass that bends the outgoing image more and more, with rainbow fringes, flares up as the incoming image takes over, then calms down and clears. Params: strength (float = 0.15), scale (float = 2.5), dispersion (float = 0.5), brightness (float = 1)
+- `Revolve`: The outgoing image swirls and zooms with motion blur into the incoming one. Params: center (vec2 = vec2(0.46, 0.52)), direction (float = -1), maxRotation (float = 1.95), peakZoom (float = 2.22), swirl (float = 2.85), barrel (float = 0.38), motionBlur (float = 1), switchStart (float = 0.3), switchEnd (float = 0.5), shadow (float = 0.16)
+- `RibbonTwist`: The image twists like a ribbon around its horizontal center line, the twist travelling smoothly across its width, the outgoing image on its front and the incoming one on its back. Params: spread (float = 0.8), perspective (float = 0.4), shading (float = 0.6), vertical (bool = false), backColor (vec4 = vec4(0, 0, 0, 1))
+- `RingsWipe`: Concentric rings ripple out from the center and, one after another, each sweeps around like a clock hand in the opposite direction of its neighbors to reveal the incoming image, or fills across its width, with optional colored borders between the rings. Params: count (int = 6), center (vec2 = vec2(0.5, 0.5)), stagger (float = 0.5), radial (bool = false), borderWidth (float = 0.008), borderColor (vec4 = vec4(1, 1, 1, 1)), smoothness (float = 0.004)
+- `Ripple`: Ripples spread from the center while crossfading. Params: amplitude (float = 100), speed (float = 50)
+- `Rolls`: The outgoing image rolls away around a corner, revealing the incoming one. Params: type (int = 0), RotDown (bool = false)
+- `RotateScaleFade`: The outgoing image spins and zooms while fading to the incoming one, over a background color. Params: center (vec2 = vec2(0.5, 0.5)), rotations (float = 1), scale (float = 8), backColor (vec4 = vec4(0.15, 0.15, 0.15, 1))
+- `RotateScaleVanish`: The outgoing image spins and shrinks away over the incoming one. Params: FadeInSecond (bool = true), ReverseEffect (bool = false), ReverseRotation (bool = false)
+- `SawtoothWipe`: A wipe whose edge is a row of sharp, regular triangular teeth sweeps across the frame, or two toothed edges that start interlocked part from the middle like jaws opening. Params: direction (vec2 = vec2(1, 0)), teeth (int = 8), depth (float = 1), jaws (bool = false), smoothness (float = 0.004)
+- `Shatter`: The outgoing image cracks like a pane of glass from an impact point, then its shards break loose from the impact outward, tumbling in 3D and falling away with gravity to reveal the incoming image behind. Params: center (vec2 = vec2(0.5, 0.5)), shards (float = 6), gravity (float = 1), seed (float = 0)
+- `Shred`: The outgoing image is cut into paper strips that drop away at uneven speeds, tilting as they fall, revealing the incoming image. Params: strips (int = 20), stagger (float = 0.4), tilt (float = 0.1), shadow (float = 0.5)
+- `SimpleFlip`: The outgoing image flips around the vertical axis into the incoming one
+- `SimpleZoom`: Zooms into the outgoing image, then fades to the incoming one. Params: zoom_quickness (float = 0.8)
+- `SimpleZoomOut`: The incoming image zooms out into place while fading in. Params: zoom_quickness (float = 0.8), fade (bool = true)
+- `SketchDissolve`: The outgoing image fades back to blank paper while the incoming one is drawn on it in pencil, outlines first and then hatching in the shadows, before its shading and colors fill in until the picture is complete. Params: lineWidth (float = 1.5), edges (float = 1), hatching (float = 0.6), paper (vec4 = vec4(0.96, 0.94, 0.89, 1)), ink (vec4 = vec4(0.16, 0.16, 0.2, 1))
+- `SlideAwayRight`: The outgoing image slides to the right, uncovering a crossfade to the incoming one
+- `Slides`: The outgoing image slides out, or the incoming one slides in, toward an edge, a corner or the center. Params: type (int = 0), In (bool = false)
+- `SlotReels`: The frame is cut into vertical reels that spin downward like drums, motion-blurred with speed, carrying the outgoing image then the incoming one, and stop one after another from left to right with a small mechanical bounce. Params: reels (int = 5), blur (float = 0.6), stagger (float = 0.45), bounce (float = 0.5), separator (vec4 = vec4(0.04, 0.04, 0.05, 1))
+- `SmokeDissolve`: Billowing smoke drifts in across the outgoing image, with lit tops, darker folds and wispy edges, and thickens until it covers the frame; as it thins out and drifts away, the incoming image shows through. Params: direction (vec2 = vec2(0.5, 0.1)), scale (float = 2.5), spread (float = 0.4), softness (float = 0.5), color (vec4 = vec4(0.86, 0.86, 0.88, 1))
+- `SnakeBlockWipe`: Blocks switch to the incoming image one at a time, row after row from the top (or column after column from the left), each line running the opposite way to the one before, like a snake winding across the frame. Params: grid (ivec2 = ivec2(8, 6)), vertical (bool = false), smoothness (float = 0.5)
+- `Snapshot`: A camera flash freezes the outgoing image into a printed photo with a white border, which shrinks, tilts and drops out of the frame, revealing the incoming image behind it. Params: tilt (float = 0.35), border (float = 0.04), flash (float = 0.85), shadow (float = 0.45), borderColor (vec4 = vec4(0.96, 0.94, 0.89, 1))
+- `Sphere`: The outgoing image wraps itself onto a shaded ball that shrinks and rolls away, revealing the incoming image under its shadow. Params: direction (vec2 = vec2(1, 0)), size (float = 0.3), shading (float = 0.6), shadow (float = 0.5)
+- `SpiralBlockWipe`: Square blocks switch to the incoming image one after another along a rectangular spiral, from the border inward or from the center outward. Params: grid (ivec2 = ivec2(8, 6)), inward (bool = true), clockwise (bool = true), smoothness (float = 0.05)
+- `SpiralWipe`: A spiral arm winds out from the center and widens to reveal the incoming image. Params: turns (float = 3), smoothness (float = 0.05), clockwise (bool = true)
+- `SplatterWipe`: Splats of paint land one after another, each popping in with a spiky outline, flung droplets and a few drips running down, revealing the incoming image until they cover the frame. Params: splats (float = 4), spikiness (float = 0.6), droplets (float = 0.6), drips (float = 0.5), rim (float = 0.5), seed (float = 3)
+- `SplitFlap`: The frame becomes a split-flap board: in each cell the top half of the outgoing image flips down on a hinge across the middle, cell after cell, its back bringing the bottom half of the incoming image. Params: size (ivec2 = ivec2(8, 6)), stagger (float = 0.6), randomness (float = 0.3), flaps (int = 1), gap (float = 0.004), perspective (float = 0.35), shading (float = 0.4), background (vec4 = vec4(0, 0, 0, 1))
+- `SplitSlideInHorizontal`: The incoming image slides in as two halves moving horizontally in opposite directions. Params: reverse (bool = false)
+- `SplitSlideInOutHorizontal`: The halves of both images slide horizontally in opposite directions, out and in at once. Params: reverse (bool = false)
+- `SplitSlideInOutVertical`: The halves of both images slide vertically in opposite directions, out and in at once. Params: reverse (bool = false)
+- `SplitSlideInVertical`: The incoming image slides in as two halves moving vertically in opposite directions. Params: reverse (bool = false)
+- `SplitSlideOutHorizontal`: The outgoing image slides out as two halves moving horizontally in opposite directions. Params: reverse (bool = false)
+- `SplitSlideOutVertical`: The outgoing image slides out as two halves moving vertically in opposite directions. Params: reverse (bool = false)
+- `SquaresWipe`: Squares grow along a diagonal sweep to reveal the incoming image. Params: squares (ivec2 = ivec2(10, 10)), direction (vec2 = vec2(1, -0.5)), smoothness (float = 1.6)
+- `Squeeze`: The outgoing image is squeezed into a line with color separation, revealing the incoming one. Params: colorSeparation (float = 0.04)
+- `StarWipe`: A growing star reveals the incoming image. Params: border_thickness (float = 0.01), star_rotation (float = 0.75), border_color (vec4 = vec4(1, 1, 1, 1)), star_center (vec2 = vec2(0.5, 0.5))
+- `StaticFade`: Cuts to the incoming image halfway, hidden behind a burst of TV static. Params: n_noise_pixels (float = 200), static_luminosity (float = 0.8)
+- `StaticWipe`: A wipe from top to bottom with a band of TV static at its edge. Params: u_transitionUpToDown (bool = true), u_max_static_span (float = 0.5)
+- `StereoViewer`: Both images shrink into rounded cards that swap, like a stereo viewer toy. Params: zoom (float = 0.88), corner_radius (float = 0.22)
+- `StretchSlide`: The outgoing image stretches out long as it shoots away to one side, pulling in the incoming one squashed behind it, which overshoots and springs back to its shape. Params: direction (vec2 = vec2(-1, 0)), stretch (float = 0.6), bounce (float = 0.6)
+- `StripDatamoshGlitch`: A datamosh glitch: torn strips, chroma shifts and scan noise drag the outgoing image into the incoming one. Params: strength (float = 1), horizontalBars (float = 42), verticalSlits (float = 18), tear (float = 0.18), chroma (float = 0.032), residue (float = 0.62), noiseAmount (float = 0.16), scanAmount (float = 0.13), flashAmount (float = 0.2)
+- `Swap`: The two images swap places in 3D, with a floor reflection. Params: reflection (float = 0.4), perspective (float = 0.2), depth (float = 3)
+- `Swirl`: The image twists into a round swirl around the center that peaks mid-way, where the outgoing image dissolves into the incoming one, then untwists. Params: strength (float = 1), radius (float = 0.9), center (vec2 = vec2(0.5, 0.5))
+- `TangentMotionBlur`: The outgoing image is flung away along a curve with motion blur
+- `TilesWave`: The incoming image is revealed tile by tile in a diagonal wave. Params: tileCount (ivec2 = ivec2(8, 8)), flipX (bool = true), flipY (bool = false)
+- `TopBottom`: The outgoing image shrinks away upward while the incoming one slides in from the bottom
+- `TruchetWipe`: A grid of square tiles, each holding two quarter-circle arcs, links into long winding paths; starting from the middle and spreading outward, the paths are drawn as thin lines of the incoming image, then thicken into bands with a dark outline and a soft shadow until they merge over the whole frame. Params: cells (float = 8), outline (float = 0.6), spread (float = 0.75)
+- `Tumble`: The outgoing image is thrown away like a rigid card, tumbling end over end with a slight spin as it flies off into the distance in perspective, its darker back showing on every flip and its soft shadow shrinking on the incoming image behind it. Params: flips (float = 2), spin (float = 0.15), direction (vec2 = vec2(0, 0.3)), perspective (float = 0.6), shading (float = 0.7)
+- `Tunnel`: The camera flies down a tunnel lined with the outgoing image toward the incoming one, which opens at its far end and grows to fill the frame. Params: speed (float = 6), twist (float = 0.5)
+- `TvLostSignal`: A crossfade with drifting tracking lines and tearing, like a TV losing its signal
+- `TvRoll`: The outgoing image rolls faster and faster, like an old TV losing its vertical hold, then the roll slows down and locks on the incoming image. Params: rolls (int = 3), barHeight (float = 0.12), barColor (vec4 = vec4(0, 0, 0, 1))
+- `TvStatic`: Cuts to full-screen TV static, then to the incoming image. Params: offset (float = 0.05)
+- `TvTurnOff`: The outgoing image collapses into a glowing line and a dot, like an old TV turned off, then the incoming image powers on from the dot. Params: color (vec4 = vec4(0, 0, 0, 1)), glow (float = 1)
+- `UndulatingBurnOut`: A circle with a wavy edge burns out from the center to reveal the incoming image. Params: smoothness (float = 0.03), center (vec2 = vec2(0.5, 0.5)), color (vec4 = vec4(0, 0, 0, 1))
+- `VerticalClose`: The incoming image closes in from the left and right edges toward the middle
+- `VerticalOpen`: The incoming image opens from a line in the middle toward the left and right edges
+- `VhsTracking`: Tape-tracking bands of white snow roll down the frame, tearing the lines around them, with smeared color, wobbling lines, a jittering strip at the bottom and a dropout flash, as the incoming image is recorded over the outgoing one under the densest band. Params: bands (int = 3), noise (float = 0.6), bleed (float = 0.5), wobble (float = 0.5)
+- `Vortex`: The outgoing image breaks into hundreds of small squares that a tornado carries away along a spiral around the center, from the eye outward, uncovering the incoming image. Params: grid (int = 24), center (vec2 = vec2(0.5, 0.5)), spin (float = 1), randomness (float = 0.2)
+- `WarpSpeed`: The camera jumps to light speed: star streaks shoot out from the center and stretch longer and longer while the outgoing image is pulled into a radial smear, then after a flash the incoming image emerges from the center as the streaks shrink back. Params: center (vec2 = vec2(0.5, 0.5)), streaks (float = 160), streakColor (vec4 = vec4(0.78, 0.88, 1, 1)), strength (float = 0.6), flash (float = 0.5)
+- `WaterDrop`: A drop falls into the image like into still water: round ripples spread out from where it hits, bending the image with glints on their slopes, the incoming image shows up inside the leading ripple, and the water calms down. Params: amplitude (float = 30), speed (float = 30), center (vec2 = vec2(0.5, 0.5)), refraction (float = 0.015), highlight (float = 0.5)
+- `WaveWipe`: A breaking wave crashes across the frame, its lip curling over in front of its face and throwing foam and spray ahead, its shadow darkening the outgoing image; the incoming image is left behind it, tinted and bent by the water, clearing as the wave passes. Params: direction (vec2 = vec2(1, 0)), curl (float = 0.3), foam (float = 0.6), refraction (float = 0.04), water (vec4 = vec4(0.05, 0.36, 0.46, 0.75)), foamColor (vec4 = vec4(1, 1, 1, 1))
+- `WedgeWipe`: Two hands sweep away from each other around the center, opening a widening wedge that reveals the incoming image. Params: angle (float = 0), smoothness (float = 0.01), center (vec2 = vec2(0.5, 0.5))
+- `WhipPan`: A fast camera pan that streaks both images with motion blur, the incoming one arriving from the opposite side. Params: direction (vec2 = vec2(-1, 0)), blur (float = 0.4)
+- `WhipSpin`: The camera rolls faster and faster around the center of the frame, streaking the outgoing image in a spin blur, then the incoming one takes over mid-spin and slows to a stop. Params: turns (float = 1), blur (float = 0.5), chroma (float = 0.6), zoom (float = 0.25)
+- `WhipTilt`: The camera tilts fast from the outgoing image to the incoming one, set edge to edge at an angle above it, streaking both in perspective with a vertical motion blur. Params: down (bool = false), blur (float = 0.5), chroma (float = 0.5), perspective (float = 0.7)
+- `Wind`: A ragged left-to-right wipe, as if the image was blown away by the wind. Params: size (float = 0.2), reversed (bool = false)
+- `WindowBlinds`: A crossfade through horizontal window blinds
+- `WindowSlices`: The incoming image appears through vertical slices that widen. Params: count (float = 10), smoothness (float = 0.5)
+- `ZoomInCircles`: Concentric rings of the outgoing image zoom at different speeds before revealing the incoming one
+- `ZoomInOut`: Zooms into the outgoing image until it blurs into a flat color, then out to the incoming one
+- `ZoomWipeLeft`: Zooms into the outgoing image, then the incoming one wipes in from right to left. Params: zoom_quickness (float = 0.8)
+- `ZoomWipeRight`: Zooms into the outgoing image, then the incoming one wipes in from left to right. Params: zoom_quickness (float = 0.8)
